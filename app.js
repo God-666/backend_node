@@ -5,7 +5,7 @@ const Thing = require('./model/thing');
 
 const app =  express();
 
-mongoose.connect('mongodb+srv://get:get@mongodb.com@clusternode.twd8z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://get:xxx@clusternode.twd8z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
 { 
     useNewUrlParser: true,
     useUnifiedTopology: true})
